@@ -80,14 +80,8 @@
                         <recipe>org.openrewrite.java.spring.boot2.search.IntegrationSchedulerPoolRecipe</recipe>
                         <recipe>org.openrewrite.java.spring.boot2.search.LoggingShutdownHooks</recipe>
                     </activeRecipes>
-                    <detail>true</detail>
                 </configuration>
                 <dependencies>
-                    <dependency>
-                        <groupId>com.squareup.okhttp3</groupId>
-                        <artifactId>okhttp</artifactId>
-                        <version>4.9.0</version>
-                    </dependency>
                     <dependency>
                         <groupId>org.openrewrite.recipe</groupId>
                         <artifactId>rewrite-spring</artifactId>
