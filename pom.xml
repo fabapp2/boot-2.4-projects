@@ -73,7 +73,7 @@
                 <groupId>org.openrewrite.maven</groupId>
                 <artifactId>rewrite-maven-plugin</artifactId>
                 <!-- Use whichever version is latest at the time of reading. This number is a placeholder. -->
-                <version>4.17.0-SNAPSHOT</version>
+                <version>4.18.0-SNAPSHOT</version>
                 <configuration>
                     <activeRecipes>
                         <recipe>org.openrewrite.java.spring.boot2.search.CustomizingJooqDefaultConfiguration</recipe>
